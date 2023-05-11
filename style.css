@@ -1,0 +1,52 @@
+
+html{
+    background-color: #333;
+}
+.main{
+    margin: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.root{
+    position: relative;
+}
+.rootCircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: aqua;
+}
+.rootLines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.rootLeftLine{
+    position: relative;
+}
+.rootRightLine{
+    position: relative;
+}
+.rootLeftLine{
+    position: relative;
+    display: flex;
+    height: 2px;
+    width: 150px;
+    background-color: white;
+    transform: translate(-120px,40px) rotateZ(-45deg) ;
+}
+.rootRightLine{
+    position: relative;
+    display: flex;
+    height: 2px;
+    width: 150px;
+    background-color: white;
+    transform: translate(-120px,40px) rotateZ(45deg) ;
+}
